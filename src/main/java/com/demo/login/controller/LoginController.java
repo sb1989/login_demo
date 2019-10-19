@@ -31,7 +31,7 @@ public class LoginController {
 			model.put("user", result);
 			return "welcome";
 		} else {
-			model.put("error", "error");
+			model.put("authenication", "fail");
 			return "login";
 		}
 	}

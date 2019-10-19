@@ -16,8 +16,8 @@
 			<spring:message code="welcome.header" text="welcome.header"></spring:message>
 		</h1>
 
-		<spring:message code="welcome.user.id" text="welcome.user.id"></spring:message>: ${user.userId}
-		<spring:message code="welcome.user.role" text="welcome.user.role"></spring:message>: ${user.role}
+		<b><spring:message code="welcome.user.id" text="welcome.user.id"></spring:message>:</b> ${user.userId}
+		<b><spring:message code="welcome.user.role" text="welcome.user.role"></spring:message>:</b> ${user.role}
 		
 	</div>
 	<script src="webjars/jquery/1.9.1/jquery.min.js"></script>
